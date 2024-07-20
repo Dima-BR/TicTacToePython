@@ -4,7 +4,7 @@ This is a simple implementation of the Tic Tac Toe game in Python. The game allo
 
 ## 📋 Table of Contents
 
-1. [Board Initialization](#board-initialization)
+1. [Board Initialization](##board-initialization)
 2. [Constants](#constants)
 3. [Functions](#functions)
     - [draw_board](#draw_board)
