@@ -193,6 +193,3 @@ if __name__ == "__main__":
         break
 
     main()
-```
-This code allows a player to play Tic Tac Toe against the computer, taking turns to place their symbols (X or O) on the board until one wins or the game is a draw.
-```
