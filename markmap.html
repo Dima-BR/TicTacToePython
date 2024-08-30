@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:q,mm:v}=window,j=new q.Toolbar;j.attach(v);const we=j.render();we.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(we)})})()</script><script>((f,d,h,u)=>{const g=f();window.mm=g.Markmap.create("svg#mindmap",(d||g.deriveOptions)(u),h)})(()=>window.markmap,null,{"content":"TicTacToePython","children":[{"content":"Create the Board","children":[{"content":"Initialize a 3x3 board for the game","children":[],"payload":{"lines":"3,5"}}],"payload":{"lines":"2,3"}},{"content":"Choose Who Starts First","children":[{"content":"Decide if the player or the computer (or the second player) will start first","children":[],"payload":{"lines":"6,8"}}],"payload":{"lines":"5,6"}},{"content":"Choose X or O","children":[{"content":"Allow the player to choose their symbol (X or O)","children":[],"payload":{"lines":"9,11"}}],"payload":{"lines":"8,9"}},{"content":"Display the Board","children":[{"content":"Show the current state of the board to the players","children":[],"payload":{"lines":"12,14"}}],"payload":{"lines":"11,12"}},{"content":"Player Move","children":[{"content":"Prompt the player to make a move by selecting an empty position on the board","children":[],"payload":{"lines":"15,17"}}],"payload":{"lines":"14,15"}},{"content":"Check for Win or Draw","children":[{"content":"After each move, check if there is a winner or if the game ends in a draw","children":[],"payload":{"lines":"18,20"}}],"payload":{"lines":"17,18"}},{"content":"Switch Turns","children":[{"content":"Change the turn to the other player (or the computer)","children":[],"payload":{"lines":"21,23"}}],"payload":{"lines":"20,21"}},{"content":"Computer/Second Player Move","children":[{"content":"Have the computer or the second player make their move","children":[],"payload":{"lines":"24,26"}}],"payload":{"lines":"23,24"}},{"content":"Repeat Steps 4-8","children":[{"content":"Continue alternating turns, displaying the board, making moves, and checking for win or draw until the game ends","children":[],"payload":{"lines":"27,29"}}],"payload":{"lines":"26,27"}},{"content":"End Game","children":[{"content":"Declare the winner or announce a draw","children":[],"payload":{"lines":"30,31"}},{"content":"Optionally offer the option to play again","children":[],"payload":{"lines":"31,32"}}],"payload":{"lines":"29,30"}}],"payload":{"lines":"0,1"}},null)</script>
+</body>
+</html>
